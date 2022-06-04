@@ -25,7 +25,7 @@ const Textarea = () => {
       </div>
       <div className='mt-2  flex justify-between' >
         <div>
-          <button   className='bg-black mr-1  p-4 rounded-full' >
+          <button   onClick={()=>setAddText({...addText,color:'bg-black'})}  className='bg-black mr-1  p-4 rounded-full' >
           </button>
           <button  onClick={()=>setAddText({...addText,color:'bg-red-600'})} className='bg-red-600 mr-1  p-4 rounded-full' >
           </button>
